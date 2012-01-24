@@ -10,8 +10,13 @@ For now this plugin provides a way to prevent that behavior for Chrome
 in the case you're scrolling up or left where you can't scroll anymore,
 which triggers back/next page.
 
+Support and dependencies
+------------------------
+
 Supported browsers: Mac OSX Chrome
 On all other browsers this script won't do anything
+
+Depends on: jquery.mousewheel.js
 
 TODO: Add Mac OSX Safari support
 

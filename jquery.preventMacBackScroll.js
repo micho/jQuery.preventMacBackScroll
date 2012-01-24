@@ -12,6 +12,8 @@
 // Supported browsers: Mac OSX Chrome
 // On all other browsers this script won't do anything
 //
+// Depends on: jquery.mousewheel.js
+//
 // TODO: Add Mac OSX Safari support
 //
 //
