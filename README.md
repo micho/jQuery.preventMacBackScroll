@@ -1,4 +1,3 @@
-
 Disable horizontal scrolling for Back page in Mac
 =================================================
 
@@ -9,6 +8,9 @@ scrolling with two fingers will trigger back page or next page.
 For now this plugin provides a way to prevent that behavior for Chrome
 in the case you're scrolling up or left where you can't scroll anymore,
 which triggers back/next page.
+
+**UPDATE: Read the blog post I wrote on the subject with alternatives**
+[How to handle Mac's broken horizontal scroll](http://micho.biz/mac-osx-lion-horizontal-scroll-event/)
 
 Support and dependencies
 ------------------------
