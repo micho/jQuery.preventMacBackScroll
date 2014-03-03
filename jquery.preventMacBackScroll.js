@@ -9,13 +9,10 @@
 // in the case you're scrolling up or left where you can't scroll anymore,
 // which triggers back/next page.
 //
-// Supported browsers: Mac OSX Chrome
+// Supported browsers: Mac OSX Chrome, Mac OSX Safari, Mac OSX Firefox
 // On all other browsers this script won't do anything
 //
 // Depends on: jquery.mousewheel.js
-//
-// TODO: Add Mac OSX Safari support
-//
 //
 // by Pablo Villalba for http://teambox.com
 //
@@ -27,8 +24,14 @@
     return;
   }
 
-  // Handle scroll events in Chrome
-  if (navigator.userAgent.match(/Chrome/)) {
+  // Detect browsers
+  // http://stackoverflow.com/questions/5899783/detect-safari-using-jquery
+  var is_chrome = navigator.userAgent.indexOf('Chrome') > -1;
+  var is_safari = navigator.userAgent.indexOf("Safari") > -1;
+  var is_firefox = navigator.userAgent.indexOf('Firefox') > -1;
+
+  // Handle scroll events in Chrome, Safari, and Firefox
+  if (is_chrome || is_safari || is_firefox) {
 
     // TODO: This only prevents scroll when reaching the topmost or leftmost
     // positions of a container. It doesn't handle rightmost or bottom,
