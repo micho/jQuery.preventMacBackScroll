@@ -22,11 +22,11 @@ Depends on: jquery.mousewheel.js
 
 TODO: Add Mac OSX Safari support
 
-Author
-------
+License/Author
+--------------
+
+Licensed under the MIT License
 
 By Pablo Villalba for http://teambox.com
 
 Check out Teambox, our [collaboration software](http://teambox.com)
-
-Licensed under the MIT License
