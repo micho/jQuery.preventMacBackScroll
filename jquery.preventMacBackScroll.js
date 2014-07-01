@@ -16,6 +16,8 @@
 //
 // by Pablo Villalba for http://teambox.com
 //
+// Licensed under the MIT License
+//
 
 (function ($) {
 
