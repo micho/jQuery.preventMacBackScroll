@@ -10,7 +10,7 @@ in the case you're scrolling up or left where you can't scroll anymore,
 which triggers back/next page.
 
 **UPDATE: Read the blog post I wrote on the subject with alternatives**
-[How to handle Mac's broken horizontal scroll](http://micho.biz/mac-osx-lion-horizontal-scroll-event/)
+[How to handle Mac's broken horizontal scroll](http://micho.biz/post/64853900698/mac-osx-lions-scroll-breaks-the-web)
 
 Support and dependencies
 ------------------------
