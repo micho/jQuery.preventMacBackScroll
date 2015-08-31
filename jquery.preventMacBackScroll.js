@@ -12,6 +12,7 @@
 // Supported browsers: Mac OSX Chrome, Mac OSX Safari, Mac OSX Firefox
 // On all other browsers this script won't do anything
 //
+// Depends on: jQuery 1.2.6+
 // Depends on: jquery.mousewheel.js
 //
 // by Pablo Villalba for http://teambox.com
